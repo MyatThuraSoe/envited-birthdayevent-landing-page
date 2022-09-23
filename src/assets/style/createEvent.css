@@ -1,0 +1,58 @@
+.create-event-container{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+.create-event{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #F6F2FF;
+    border-radius: 14px;
+    border: 5px solid white;
+    filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 0.05));
+
+
+}
+.create-event h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #501FC1;
+}
+.create-event div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.create-event div label{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #8456EC;
+}
+.create-event div input{
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #CCB6FF;
+    color: #240D57;
+    outline: 0;
+}
+.create-event div input:focus{
+    border-color: #E87BF8;
+}
+.create-event div input::placeholder{
+    color: #594684;
+    font-size: 0.9rem;
+}
+.create-event div button{
+    padding: 8px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    color: #ececec;
+    background: linear-gradient(90deg, #9756EC 3.25%, #9d69a9 100%);
+}
